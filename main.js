@@ -39,13 +39,23 @@ console.log(sum);
 
 //4. Array functions
 
-//forEach
-
 const lista = [1,2,3,4,5,6,7,8,9,10];
+//map
 
 const adunari = lista.map((el) => el+el);
 
 console.log(adunari);
+
+//forEach
+
+const afisare = lista.forEach((el) => console.log(el));
+
+
+//filter
+
+const selector = lista.filter((el) => el % 2 === 0);
+console.log(selector);
+
 
 
 
