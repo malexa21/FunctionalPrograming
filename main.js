@@ -48,6 +48,14 @@ console.log(adunari);
 
 //forEach
 
-const afisare = lista.forEach((el) => console.log(el))
+const afisare = lista.forEach((el) => console.log(el));
+
+
+//filter
+
+const selector = lista.filter((el) => el % 2 === 0);
+console.log(selector);
+
+
 
 
