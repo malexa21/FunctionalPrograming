@@ -57,5 +57,11 @@ const selector = lista.filter((el) => el % 2 === 0);
 console.log(selector);
 
 
+//reduce
+
+const adun = lista.reduce((el) => suma(el , el+1));
+
+console.log(adun)
+
 
 
