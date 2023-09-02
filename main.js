@@ -1,4 +1,4 @@
-//Arrow Functions
+//1. Arrow Functions
 const add = (a,b) => {
     return a+b
 };
@@ -6,7 +6,7 @@ const add = (a,b) => {
 console.log(add(10 ,20));
 
 
-//HOF
+//2. HOF
 const suma = (a,b) => (a+b);
 const dif = (a,b) => (a-b);
 const mult = (a,b) => (a*b);
@@ -20,7 +20,7 @@ const n = operatiiMatematice(10 , 15 ,suma)
 console.log(n);
 
 
-//Destructurarea
+//3. Destructurarea
 
 const obiect = {
     prop1:5,
@@ -35,5 +35,17 @@ const {prop1,prop2,prop3,prop4} = obiect;
 const sum =prop1 + prop2 + prop3 + prop4[1];
 
 console.log(sum);
+
+
+//4. Array functions
+
+//forEach
+
+const lista = [1,2,3,4,5,6,7,8,9,10];
+
+const adunari = lista.map((el) => el+el);
+
+console.log(adunari);
+
 
 
